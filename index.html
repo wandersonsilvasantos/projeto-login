@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+    <main>
+        <section>
+            <div id="imagem">
+            </div>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                <form action="cadastro.php" autocomplete="on">
+                    <p class="rx">
+                        <label for="iemail"><span class="material-symbols-outlined">person</span></label>
+                        <input class="muda" type="email" name="email" id="iemail" required placeholder="E-mail" autocomplete="email">
+                    </p>
+                    <p class="rx">
+                        <label for="isen"><span class="material-symbols-outlined">Key</span></label>
+                        <input class="muda" type="password" name="sen" id="isen" required placeholder="Senha" minlength="8" autocomplete="current-password">
+                    </p>
+                        <p><input type="submit" value="Entrar" id="sub"></p>
+                        <p><a class="botao" href="#"> Esqueci a senha</a></p>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

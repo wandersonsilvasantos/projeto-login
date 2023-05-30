@@ -1,0 +1,93 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --verde:#94CFCD;
+    --lilas:#5f2c82;
+}
+body,html{
+    background-color:var(--lilas);
+    height: 100vh;
+}
+main{
+    background-color: white;
+    width:250px;
+    height: 85vh;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius:20px ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
+}
+#imagem{
+    background: var(--lilas) url('../imagens/fundopredio.jpg') center center no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-radius: 20px 20px 0px 0px;
+}
+#form{
+    padding: 10px;
+
+}
+form{
+    display: block;
+}
+.rx{
+    background-color: var(--lilas);
+    color: white;
+    border-radius: 8px;
+    margin: 5px 0px 5px 0px;
+}
+input{
+   height: 100%;
+   border: 0px;
+   width: calc(100%-45px);
+   background-color: var(--verde);
+   border-radius: 8px;
+   padding: 11px;
+}
+span{
+    padding: 5px;
+}
+.muda{
+    transform: translateY(-3px);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+p{
+    font-size: 12px;
+}
+#sub{
+    color: white;
+    width: 100%;
+    background-color: #46b8b4;
+}
+#sub:hover{
+background-color: #286967;
+}
+.botao{
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #46b8b4;
+    display: block;
+    margin:5px 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #266664;
+    border-radius: 8px;
+    
+}
+span#em{
+    width: 10px;
+}
